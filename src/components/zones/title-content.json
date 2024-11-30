@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_zones_title_contents",
+  "info": {
+    "displayName": "Title Content",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "theme": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pages.title-and-description"
+    }
+  }
+}

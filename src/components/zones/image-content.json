@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_zones_image_contents",
+  "info": {
+    "displayName": "Image Content",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "theme": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "contentSlider": {
+      "type": "boolean",
+      "default": false
+    },
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pages.image-with-cta-and-links"
+    }
+  }
+}

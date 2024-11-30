@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_zones_gallery_contents",
+  "info": {
+    "displayName": "Gallery Content",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "theme": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pages.gallery-with-links"
+    }
+  }
+}

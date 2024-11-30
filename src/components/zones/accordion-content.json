@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_zones_accordion_contents",
+  "info": {
+    "displayName": "Accordion Content"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "theme": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pages.title-and-description"
+    }
+  }
+}

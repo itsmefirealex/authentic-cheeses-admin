@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_zones_page_landings",
+  "info": {
+    "displayName": "Page Landing",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "theme": {
+      "type": "string"
+    },
+    "bg": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "ellipseTitle": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.menu"
+    }
+  }
+}

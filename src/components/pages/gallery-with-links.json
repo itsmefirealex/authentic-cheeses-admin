@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_pages_gallery_with_links",
+  "info": {
+    "displayName": "Gallery with Links"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

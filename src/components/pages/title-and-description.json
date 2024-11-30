@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_pages_title_and_descriptions",
+  "info": {
+    "displayName": "Title and Description",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "color": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_common_page_informations",
+  "info": {
+    "displayName": "Page Information",
+    "icon": "information",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "metaDescription": {
+      "type": "text"
+    },
+    "metaKeywords": {
+      "type": "text"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

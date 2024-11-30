@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_common_menus",
+  "info": {
+    "displayName": "Menu",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "theme": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
